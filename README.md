@@ -27,7 +27,6 @@ docker start debian_mysql_sakila
 ## Connecting to the DB
 Credentials are `user` and `password`, for user and password respectively.  
 You can connect with one of the following CLI commands:
-mariadb:
 ```bash
 mariadb -h 127.0.0.1 -u user -p -P 3306 --skip-ssl
 ```
