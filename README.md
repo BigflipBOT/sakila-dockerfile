@@ -23,6 +23,10 @@ Starting Container
 ```bash
 docker start debian_mysql_sakila
 ```
+Copy Container
+```bash
+docker commit <container-name> <new-image-name>
+```
 
 ## Connecting to the DB
 Credentials are `user` and `password`, for user and password respectively.  
